@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: `${process.env.REACT_APP_API_PORT}`,
+  baseURL: 'https://ngcash-deploy-production.up.railway.app/',
 });
 
 export const setToken = (token: string) => {
