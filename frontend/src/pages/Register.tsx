@@ -78,10 +78,10 @@ const Register = () => {
           </label>
           <p>
             A senha deve conter :<br />
-            deve conter ao menos um dígito <br />
-            deve conter ao menos uma letra minúscula<br />
-            deve conter ao menos uma letra maiúscula<br />
-            deve conter ao menos 8 dos caracteres mencionados
+            ao menos um dígito <br />
+            ao menos uma letra minúscula<br />
+            ao menos uma letra maiúscula<br />
+            ao menos 8 dos caracteres mencionados
           </p>
           {failedTryRegistred ? (
             <p data-testid='register_alert'>
