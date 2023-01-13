@@ -31,6 +31,7 @@ const Register = () => {
       return toast.error(`${body.message}`);
     }
     localStorage.setItem('username', body.username);
+    setFailedTryRefistred(false);
     setIsRegistred(true);
     return toast.success('Usuário Cadastrado com Sucesso!');
   };
